@@ -91,7 +91,6 @@ body {
   .content.narrow {
     padding: 0;                                                                       
     max-width: 60%;
-
   }
 
   .columns.two{
@@ -106,7 +105,6 @@ body {
     gap: 10px;
     width: 80%;
     align-items: stretch;
-    /* max-width: 800px; */
   }
 
   .split-tile{
@@ -255,11 +253,15 @@ body {
   }
   
   p, li {
-    text-shadow: 0px -2px 1px rgba(0, 0, 0, 0.25);
-    color: #E6E6E6;
     font-family: "Noto Sans Display";
-    font-size: 14px;
-    margin: 0;
+    font-size: 20px;
+    margin: 0;  
+
+    filter: drop-shadow(0px -2px 1px rgba(0, 0, 0, 0.25));
+    background: linear-gradient(180deg, #878C87 0%, #D3D4D3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   
   sub {
