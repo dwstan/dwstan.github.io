@@ -12,6 +12,11 @@
 </head>
 <body>
     <div class = "navbar">
+        <div class="nav mobile">  
+            <label id="menu_toggle_label" for="menu_toggle"> <div class="navlink"><i class="material-icons" style="font-size:32px;">menu</i></div></label>
+            <div class="vl"></div>
+        </div>
+        
         <div class="nav desktop">       
             <div class="vl"></div>
             <a href="https://dereks.xyz/"><button><i class="material-icons" id="curpage" style="font-size:32px;">home</i><h4 id="curpage">home</h4></button></a>
@@ -20,18 +25,24 @@
             <div class="vl"></div>
         </div>
     </div>
+    <input id="menu_toggle" type="checkbox">
+    <div class="menu_mobile"> 
+            <a href="https://dereks.xyz/"><i class="material-icons" id="curpage" style="font-size:32px;">home</i><h4 id="curpage">home</h4></a>
+            <div class="hl"></div>
+            <a href="https://dereks.xyz/portfolio"><i class="material-symbols-outlined" style="font-size:32px;">book_2</i><h4>portfolio</h4></a>
+    </div>
     <div class = "content">
         <div class ="content narrow">
         <div class="tile">
               <div class = "container">
-                
-                <div class = "split-tile">
+                <div class="split-tile">
+                    <img src="img/derek.jpeg" alt="Derek Stanford">
+                </div>
+                <div class="split-tile">
                     <h1>Derek Stanford</h1>
                     <p>coding and cad enthusiast</p>
                     <p>B.S. in Computer Science and Engineering from University of California, Merced</p>
                 </div>
-
-                <div class = "split-tile"><img src = "img/derek.jpeg"></img></div>
               </div>
         </div>
 
